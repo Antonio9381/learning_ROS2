@@ -51,6 +51,11 @@ git pull                  # Fetch + merge
 git push                  # Push current branch
 git push -u origin <name> # Push new branch and set upstream
 ```
+```
+# if you want to set the upstream so future git pull works without arguments:
+git branch --set-upstream-to=origin/setup/make_workspace
+git pull
+```
 ### undoing things
 ```
 git restore <file>        # Discard unstaged changes to a file
