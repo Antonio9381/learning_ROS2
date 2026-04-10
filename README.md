@@ -35,13 +35,13 @@ git commit --amend        # Edit the last commit (message or content)
 ### branching
 ```
 git branch                # List branches
-git branch <name>         # Create a branch
-git switch <name>         # Switch to a branch (modern)
-git switch -c <name>      # Create + switch in one step
+git branch feature/your-task         # Create a branch
+git switch feature/your-task         # Switch to a branch (modern)
+git switch -c feature/your-task      # Create + switch in one step
 
 git merge <branch>        # Merge branch into current
 git rebase <branch>       # Rebase current onto branch
-git branch -d <name>      # Delete a branch (safe)
+git branch -d feature/your-task      # Delete a branch (safe)
 ```
 ### remote
 ```
