@@ -15,6 +15,11 @@ https://wiki.sydneyrover.com/docs/guides/fundamentals/03_ros2-launch-files/
 git init                  # Create a new repo in current folder
 git clone <url>           # Copy a remote repo locally
 ```
+### identify author
+```
+git config --global user.email "ant938153@gamil.com"
+git config --global user.name "Antonio938153"
+```
 ### everyday workflow
 ```
 git status                # See what's changed
