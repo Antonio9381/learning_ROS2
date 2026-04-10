@@ -1,0 +1,16 @@
+[0.688s] Invoking command in '/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg': PYTHONPATH=/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/build --no-deps symlink_data
+[0.976s] running develop
+[1.137s] running egg_info
+[1.137s] writing first_pkg.egg-info/PKG-INFO
+[1.138s] writing dependency_links to first_pkg.egg-info/dependency_links.txt
+[1.138s] writing entry points to first_pkg.egg-info/entry_points.txt
+[1.138s] writing requirements to first_pkg.egg-info/requires.txt
+[1.138s] writing top-level names to first_pkg.egg-info/top_level.txt
+[1.141s] reading manifest file 'first_pkg.egg-info/SOURCES.txt'
+[1.141s] writing manifest file 'first_pkg.egg-info/SOURCES.txt'
+[1.143s] running build_ext
+[1.143s] Creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/lib/python3.10/site-packages/first-pkg.egg-link (link to .)
+[1.144s] 
+[1.145s] Installed /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg
+[1.145s] running symlink_data
+[1.173s] Invoked command in '/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg' returned '0': PYTHONPATH=/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/build --no-deps symlink_data

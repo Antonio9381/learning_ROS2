@@ -1,0 +1,27 @@
+[0.840s] Invoking command in '/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg': PYTHONPATH=/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/build --no-deps symlink_data
+[1.113s] running develop
+[1.267s] running egg_info
+[1.267s] creating first_pkg.egg-info
+[1.268s] writing first_pkg.egg-info/PKG-INFO
+[1.268s] writing dependency_links to first_pkg.egg-info/dependency_links.txt
+[1.269s] writing entry points to first_pkg.egg-info/entry_points.txt
+[1.269s] writing requirements to first_pkg.egg-info/requires.txt
+[1.269s] writing top-level names to first_pkg.egg-info/top_level.txt
+[1.269s] writing manifest file 'first_pkg.egg-info/SOURCES.txt'
+[1.271s] reading manifest file 'first_pkg.egg-info/SOURCES.txt'
+[1.271s] writing manifest file 'first_pkg.egg-info/SOURCES.txt'
+[1.273s] running build_ext
+[1.273s] Creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/lib/python3.10/site-packages/first-pkg.egg-link (link to .)
+[1.274s] 
+[1.274s] Installed /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg
+[1.274s] running symlink_data
+[1.274s] creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/ament_index
+[1.275s] creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/ament_index/resource_index
+[1.275s] creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/ament_index/resource_index/packages
+[1.276s] symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/resource/first_pkg -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/ament_index/resource_index/packages
+[1.276s] symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/package.xml -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg
+[1.277s] creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch
+[1.277s] creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid5
+[1.278s] symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid5/listener.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid5
+[1.278s] symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid5/talker.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid5
+[1.307s] Invoked command in '/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg' returned '0': PYTHONPATH=/home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/build --no-deps symlink_data
