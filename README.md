@@ -42,6 +42,7 @@ git switch -c feature/your-task      # Create + switch in one step
 git merge <branch>        # Merge branch into current
 git rebase <branch>       # Rebase current onto branch
 git branch -d feature/your-task      # Delete a branch (safe)
+git push origin --delete setup/make_workspace #delete branch on github
 ```
 ### remote
 ```
