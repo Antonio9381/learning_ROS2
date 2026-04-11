@@ -72,3 +72,7 @@ git stash                 # Temporarily shelve changes
 git stash pop             # Bring them back
 git cherry-pick <commit>  # Apply a specific commit to current branch
 ```
+### how to check previous commit msg
+```
+git log --oneline
+```
