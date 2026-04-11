@@ -51,6 +51,7 @@ git fetch                 # Download changes (don't apply)
 git pull                  # Fetch + merge
 git push                  # Push current branch
 git push -u origin <name> # Push new branch and set upstream
+git push --set-upstream origin learn/vid7
 ```
 ```
 # if you want to set the upstream so future git pull works without arguments:
