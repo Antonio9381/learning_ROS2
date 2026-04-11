@@ -5,7 +5,7 @@ always run this to get started:
 
 ros transform system is called TF2
 
-- ros transform tree is made up of frame and are defined by transforms
+- ros transform <u>tree is made up of</u> frame that are <u>connected and defined by</u> transforms
 - node can broadcast either static or dynamic transforms 
 
 ## boradcasting static transform (static_transform_publisher node)

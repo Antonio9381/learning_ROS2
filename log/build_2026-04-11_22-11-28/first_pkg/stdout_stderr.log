@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating first_pkg.egg-info
+writing first_pkg.egg-info/PKG-INFO
+writing dependency_links to first_pkg.egg-info/dependency_links.txt
+writing entry points to first_pkg.egg-info/entry_points.txt
+writing requirements to first_pkg.egg-info/requires.txt
+writing top-level names to first_pkg.egg-info/top_level.txt
+writing manifest file 'first_pkg.egg-info/SOURCES.txt'
+reading manifest file 'first_pkg.egg-info/SOURCES.txt'
+writing manifest file 'first_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/lib/python3.10/site-packages/first-pkg.egg-link (link to .)
+
+Installed /home/awutio23/learnROS2/learning_ROS2/build/first_pkg
+running symlink_data
+creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/ament_index
+creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/ament_index/resource_index
+creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/build/first_pkg/resource/first_pkg -> /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/build/first_pkg/package.xml -> /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg
+creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg/launch
+creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg/launch/vid6
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/build/first_pkg/launch/vid6/robot_state_publisher.launch.py -> /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg/launch/vid6
+creating /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg/launch/vid5
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/build/first_pkg/launch/vid5/listener.launch.py -> /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg/launch/vid5
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/build/first_pkg/launch/vid5/talker.launch.py -> /home/awutio23/learnROS2/learning_ROS2/install/first_pkg/share/first_pkg/launch/vid5
