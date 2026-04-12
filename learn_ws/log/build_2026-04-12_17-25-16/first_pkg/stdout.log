@@ -20,6 +20,11 @@ creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share
 symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/resource/first_pkg -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/ament_index/resource_index/packages
 symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/package.xml -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg
 creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch
+creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid7
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid7/rsp.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid7
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid7/rsp_sim.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid7
+creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid6
+symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid6/robot_state_publisher.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid6
 creating /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid5
 symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid5/listener.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid5
 symbolically linking /home/awutio23/learnROS2/learning_ROS2/learn_ws/build/first_pkg/launch/vid5/talker.launch.py -> /home/awutio23/learnROS2/learning_ROS2/learn_ws/install/first_pkg/share/first_pkg/launch/vid5

@@ -11,4 +11,7 @@ first_pkg.egg-info/top_level.txt
 first_pkg.egg-info/zip-safe
 launch/vid5/listener.launch.py
 launch/vid5/talker.launch.py
+launch/vid6/robot_state_publisher.launch.py
+launch/vid7/rsp.launch.py
+launch/vid7/rsp_sim.launch.py
 resource/first_pkg

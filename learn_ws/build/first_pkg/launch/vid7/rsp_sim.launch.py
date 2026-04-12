@@ -1,0 +1,1 @@
+/home/awutio23/learnROS2/learning_ROS2/learn_ws/src/first_pkg/launch/vid7/rsp_sim.launch.py
