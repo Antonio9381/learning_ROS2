@@ -275,6 +275,10 @@ xacro is short for xml macro
     <inertia ixx="25" />
 </inertial>
 ```
+## the link for world
+```
+<link name="world" />
+```
 
 ## final urdf code
 ```
