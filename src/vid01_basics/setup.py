@@ -5,7 +5,7 @@ import os
 from glob import glob
 #
 
-package_name = 'first_pkg'
+package_name = 'vid01_basics'
 
 # This gets the directory where setup.py itself lives
 pkg_dir = os.path.dirname(os.path.abspath(__file__))
