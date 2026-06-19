@@ -24,7 +24,10 @@ ls -lh snapshots
 _________________________________________________________________________________________________________
 
 ```
-cd ~/Documents/ROS2/dir2026/learnROS2/ros2_ws/src/learning_ROS2/learn_ws
+cd ~/Documents/ROS2/dir2026/learnROS2/ros2_ws
+
+rm -rf build install log
 colcon build
 source install/setup.bash
 ```
+- build and run file
