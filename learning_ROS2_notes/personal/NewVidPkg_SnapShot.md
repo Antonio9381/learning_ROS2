@@ -12,7 +12,8 @@ mkdir -p snapshots
 - create directory for snapshot
 
 ```
-tar --exclude='build' --exclude='install' --exclude='log' \ -czf snapshots/learnROS2_source_snapshot_$(date +%Y-%m-%d_%H-%M-%S).tar.gz learnROS2
+tar --exclude='build' --exclude='install' --exclude='log' \
+-czf snapshots/learnROS2_source_snapshot_$(date +%Y-%m-%d_%H-%M-%S).tar.gz learnROS2
 ```
 - create snap shot
 - snapshot learnROS2
