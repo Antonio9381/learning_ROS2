@@ -1,0 +1,25 @@
+# ROS/colcon generated folders
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+EOF
