@@ -1,5 +1,5 @@
 ```
-cd ~/Documents/ROS2/dir2026/learnROS2/ros2_ws/src/learning_ROS2/learn_ws/src
+cd ~/Documents/ROS2/dir2026/learnROS2/ros2_ws/src
 ros2 pkg create vid07_something --build-type ament_python --dependencies rclpy std_msgs
 ```
   - whenever new video or new pkg need to be created do it in the thing
