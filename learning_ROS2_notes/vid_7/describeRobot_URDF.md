@@ -175,3 +175,105 @@ characteristic: parent child origin - (all is optional)
     ...
 </robot>
 ```
+
+## ros naming coventions
+
+- "_link" on every link
+- "_joint" on every joint
+
+## Xacro
+
+ROS2 provide xacro which stand for xml macro, which take urdf can make it more efficient. Xacro take all ur urdf files, and combine it into one file. 
+
+To add xacro to our file, add this tag:
+
+```
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+```
+
+**Always add this, it doesn't hurt**
+
+### PATH of file:
+
+multiple urdf/xacro files -> xacro program: make single urdf file -> robot_state_publisher -> /robot_description topic
+
+above is all control by launch files
+
+## include other file
+
+my_robot.urdf.xacro
+```
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+    <xacro:include filename="my_material.xacro" />
+
+    <link>...</linkt>
+
+    <joint>...</joint>
+
+    <link>...</link>
+
+    ...
+</robot>
+```
+
+my_materials.xacro
+```
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+
+    ...
+</robot>
+```
+
+my_camera.xacro
+```
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+    <link name="camera_link> ... </link>
+
+    ...
+</robot>
+```
+
+## xacro tricks
+
+### properties
+
+```
+<xacro:property name="arm_radius" value="0.5" />
+```
+use by:
+```
+<cylinder raidus="${arm_radius}" length="7" />
+```
+
+### mathematical operator
+
+```
+<cylinder length="${4*arm_radius + pi}">
+```
+
+### macro
+
+```
+<xacro:macro name="inertia_box" param="mass x y z *origin">
+    <inertial>
+        <xacro:insert_block name="origin" />
+        <mass value="${mass}" />
+        <inertia ixx="${(1/12) * mass * (y*y+z*z)}" *other entries skipped* />
+    </inertial>
+</xacro:macro>
+```
+
+used by:
+
+```
+
+```
