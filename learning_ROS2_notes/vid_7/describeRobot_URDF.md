@@ -111,9 +111,62 @@ characteristic: visual collision inertial - (all is optional)
             <origin>
             <inertia>
         </inertial>
-    </linkt>
+    </link>
 
     <joint>
+    </joint>
+
+    <link>
+    </link>
+
+    ...
+</robot>
+```
+
+### joint tag
+
+attribute: name type
+
+characteristic: parent child origin - (all is optional)
+
+- joint type is:
+    1. revolute
+        1. rotation abt a point
+        2. fixed start and stop angle, aka fixed limits
+    2. continuous
+        1. rotation abt a point
+        2. no fixed limits, aka spin freely forever
+    3. prismatic
+        1. linear translational motion
+    4. fixed
+        1. child link doesn't move relative to the parent link
+- origin
+    - relationship of the joint before any motion is applied
+- for non-fixed joint, we need to specify extra characteristic
+    - axis
+        - which axis the joint moves along or around
+    - limit
+        - determine physical limit of joint t5y6
+        - upper and lower positional limit
+            - rad or meter
+        - velocity limit
+            - rad/s or m/s
+        - effort limit
+            - N or N/m
+
+``` 
+<?xml version="1.0"?>
+<robot name="robot" type="revolute>
+    <link>
+    </link>
+
+    <joint>
+        <parent link="slider_link" />
+        <child link="arm_link" />
+        <origin xyz="0.25 0 0.15" rpy="0 0 0" />
+
+        <axis xyz="0 -1 0" />
+        <limit lower="0" upper="${pi/2}" velocity="100" effort="100" />
     </joint>
 
     <link>
