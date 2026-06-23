@@ -3,9 +3,9 @@
 <package format="3">
   <name>vid07_describeRobotURDF</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="awooo23@todo.todo">awooo23</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ROS2 package for learning URDF robot description and TF2.</description>
+  <maintainer email="awooo23@gmail.com">awooo23</maintainer>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>tf2_ros</depend>
