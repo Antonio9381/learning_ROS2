@@ -118,3 +118,42 @@ Gazebo:
 - gazebo use joint controller plugin to take input from ROS2 and force the joint to move in the simulation 
 - gazebo also also for any amount of sensor plugins to publish to sensor topic (/my_sensor /another_sensor ...)
 
+### step by step to how to run gazebo with ros
+
+replace gazebo_ros with ros_gz_sim because we are using the new jazzy version
+
+#### launch empty gazebo world using ros2
+
+```
+ros2 launch ros_gz_sim gz_sim.launch.py gz_args:=empty.sdf
+```
+
+#### spawn a robot
+
+```
+ros2 pkg executables ros_gz_sim
+```
+
+this allow you to check all the executables command in ros gazebo
+
+```
+ros2 run ros_gz_sim [executables] --help
+
+ros2 run ros_gz_sim create --help
+```
+
+tell you information about the executatbles
+
+```
+ros2 launch vid08_Gazebo rsp_sim.launch.py
+```
+
+launch the package which launch the world and the robot.
+
+#### run rviz
+
+```
+rviz2 -d src/vid08_Gazebo/rviz/view_robot.rviz
+```
+
+
