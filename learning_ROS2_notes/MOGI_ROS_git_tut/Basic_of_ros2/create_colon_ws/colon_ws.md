@@ -6,6 +6,8 @@
 
 first note
 
+creating ws, package, 1 node for hello_world, nothing in hello world yet
+
 --- 
 
 To createm build and run custom nodes we need packages, but first we need a ws.
